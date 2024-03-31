@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/Background_Image2.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  backdrop-filter: blur(5px); 
+}
+.app-title {
+  font-family: 'Your_Stylish_Font', sans-serif; 
+  font-size: 48px; 
+  color: #002147; 
+  text-align: center; 
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: 'Your_Nice_Font', sans-serif; 
+  font-size: 48px; 
+  color: #ffffff; 
+  margin-bottom: 20px; 
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; 
+  padding: 5px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  width: 40%; 
+  max-width: 800px; 
+}
+.FilterDropdown {
+  margin: 10px;
+}
+
+.FilterDropdown select {
+  width: 100px; 
+  padding: 20px; 
+  border: none; 
+  border-radius: 10px;
+  background-color: #ffffff; 
+  color: #333333; 
+  font-family: 'Your_Nice_Font', sans-serif; 
+}
+
+.FilterDropdown select:focus {
+  outline: none;
+  box-shadow: 0 10 20px #007bff; 
+}

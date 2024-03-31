@@ -1,0 +1,59 @@
+.funnel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  .chart-heading {
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .chart-content {
+    padding: 20px;
+  }
+  .filter-dropdown {
+    width: 300px; /* Set the width of the dropdown */
+    padding: 10px; /* Add padding for better appearance */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+    background-color: #ffffff; /* Set background color */
+    color: #333333; /* Set text color */
+    font-family: 'Your_Nice_Font', sans-serif; /* Set font */
+    font-size: 16px; /* Set font size */
+    margin-right: 10px; /* Add right margin for spacing between filter buttons */
+  }
+  
+  .filter-dropdown:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px #007bff; /* Add box shadow on focus */
+  }
+  .button-container {
+    text-align: center; /* Center align the button and text */
+  }
+  
+  .button-container button {
+    padding: 15px 30px; /* Increase padding to make the button bigger */
+    font-size: 18px; /* Increase font size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+    background-color: #002147; /* Set background color */
+    color: #fff; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Add transition for smooth hover effect */
+  }
+  
+  .button-container button:hover {
+    background-color: #39506b; /* Change background color on hover */
+  }
+  
